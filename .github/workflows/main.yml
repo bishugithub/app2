@@ -1,0 +1,14 @@
+            - name: SonarScan
+  # You may pin to the exact commit or the version.
+  # uses: koiralaprt/sonarscan@62687c79f1223cecd18de8ead43eb6ec43bcc6eb
+  uses: koiralaprt/sonarscan@v1.1.4
+  with:
+    # The source directory to be scanned
+    source_dir: # optional, default is .
+    # Your sonarqube server host URL
+    sonar_host_url: # default is 
+    # Your Sonar Token
+    sonar_token: # default is 
+    # An additional service name if its a monorepo
+    service_name: # optional, default is 
+          
